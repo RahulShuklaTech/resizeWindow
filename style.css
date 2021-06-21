@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0; 
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: skyblue;
+    position: relative;
+    display: flex;
+}
+
+.leftPane{
+    height: 100vh;
+    width: 50vw;
+    background-color: darkolivegreen;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.middle{
+    height: 100vh;
+    width: 1rem;
+    background-color: black;
+}
+
+.rightPane{
+    height: 100vh;
+    width: 50vw;
+    background-color: skyblue;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    
+}
